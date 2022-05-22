@@ -1,0 +1,28 @@
+.icons{
+    width: 1rem;
+    margin-left: 3px;
+    
+}
+.right-align{
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: flex-end;
+}
+.MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.MuiSvgIcon-fontSizeMedium{
+    color: rgb(39, 39, 39);
+}
+
+@media only screen and (max-width: 600px) {
+    .menu-icon{
+        display: none;
+        
+        color: white;
+    }
+  }

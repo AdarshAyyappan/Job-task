@@ -1,0 +1,66 @@
+.main-tab{
+    width: 80%;
+    height: 15vh;
+    background-color: red;
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.37rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    border-radius: 5px ;
+  
+
+}
+
+.form-group {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+
+}
+.form-control{
+    border-radius: 20px;
+    
+}
+input::-webkit-input-placeholder {
+    color: rgba(0, 11, 80, 0.623) !important;
+
+}
+.new-nav{
+    color: rgb(40, 40, 173);
+    
+}
+
+.new-nav:hover {
+    text-decoration: underline rgb(255, 150, 30) ;
+    text-decoration-thickness: 3px;
+
+}
+
+.new-nav.active{
+    text-decoration: underline rgb(255, 150, 30) ;
+}
+
+
+  
+.new-nav{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }

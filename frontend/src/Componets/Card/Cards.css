@@ -1,0 +1,28 @@
+.first-side{
+    display: flex;
+    align-items: center
+}
+.on-tag{
+    font-size: 15px;
+    margin: 8px;
+    color: gray;
+}
+.on-tag1{
+    font-size: 15px;
+    margin: 8px;
+    color: rgb(82, 82, 82);
+
+}
+
+.ccc{
+    display: flex;
+    position: relative;
+    margin: 5rem;
+    margin-left: 10%;
+}
+
+.cnt{
+    display: flex;
+    justify-content: space-around;
+
+}
